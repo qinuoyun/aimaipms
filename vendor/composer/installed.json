@@ -1,0 +1,563 @@
+[
+    {
+        "name": "aliyuncs/oss-sdk-php",
+        "version": "v2.3.0",
+        "version_normalized": "2.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/aliyun/aliyun-oss-php-sdk.git",
+            "reference": "e69f57916678458642ac9d2fd341ae78a56996c8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/aliyun/aliyun-oss-php-sdk/e69f57916678458642ac9d2fd341ae78a56996c8.zip",
+            "reference": "e69f57916678458642ac9d2fd341ae78a56996c8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0",
+            "satooshi/php-coveralls": "~1.0"
+        },
+        "time": "2018-01-08T06:59:35+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "OSS\\": "src/OSS"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aliyuncs",
+                "homepage": "http://www.aliyun.com"
+            }
+        ],
+        "description": "Aliyun OSS SDK for PHP",
+        "homepage": "http://www.aliyun.com/product/oss/"
+    },
+    {
+        "name": "this7/cache",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/cache.git",
+            "reference": "b28dc79f18acc1e7d3b41f80c09aa067d1671cbf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/cache/b28dc79f18acc1e7d3b41f80c09aa067d1671cbf.zip",
+            "reference": "b28dc79f18acc1e7d3b41f80c09aa067d1671cbf",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0",
+            "this7/config": "dev-master"
+        },
+        "time": "2018-01-29T08:28:25+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "this7\\cache\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP cache class.",
+        "homepage": "https://github.com/this7/cache",
+        "keywords": [
+            "php-frame",
+            "this7",
+            "this7 cache"
+        ]
+    },
+    {
+        "name": "this7/config",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/config.git",
+            "reference": "e19358ad2b3ad51048e17b93fc8e918098a25f65"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/config/e19358ad2b3ad51048e17b93fc8e918098a25f65.zip",
+            "reference": "e19358ad2b3ad51048e17b93fc8e918098a25f65",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "time": "2018-01-30T13:27:24+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/infrastructure.php",
+                "src/functions.php"
+            ],
+            "psr-4": {
+                "this7\\config\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP config class.",
+        "homepage": "https://github.com/this7/config",
+        "keywords": [
+            "php-frame",
+            "this7",
+            "this7 config"
+        ]
+    },
+    {
+        "name": "this7/logger",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/logger.git",
+            "reference": "ee43c3790e38345b566f70e81dcbb7a382ab5497"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/logger/ee43c3790e38345b566f70e81dcbb7a382ab5497.zip",
+            "reference": "ee43c3790e38345b566f70e81dcbb7a382ab5497",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0",
+            "this7/config": "dev-master"
+        },
+        "time": "2018-01-30T13:27:41+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "this7\\logger\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP logger class.",
+        "homepage": "https://github.com/this7/logger",
+        "keywords": [
+            "php-frame",
+            "this7",
+            "this7 logger"
+        ]
+    },
+    {
+        "name": "this7/request",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/request.git",
+            "reference": "3ea90c0a0a076317fbd5cffec42b445a37ac5e58"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/request/3ea90c0a0a076317fbd5cffec42b445a37ac5e58.zip",
+            "reference": "3ea90c0a0a076317fbd5cffec42b445a37ac5e58",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.6",
+            "this7/config": "dev-master"
+        },
+        "time": "2018-01-29T08:30:59+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "this7\\request\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP request class.",
+        "homepage": "https://github.com/this7/request",
+        "keywords": [
+            "php-request",
+            "this7"
+        ]
+    },
+    {
+        "name": "this7/routes",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/routes.git",
+            "reference": "f023e76bf3ccc7079d77b8ddb93ce8afe5a15008"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/routes/f023e76bf3ccc7079d77b8ddb93ce8afe5a15008.zip",
+            "reference": "f023e76bf3ccc7079d77b8ddb93ce8afe5a15008",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "this7/config": "dev-master",
+            "this7/view": "dev-master"
+        },
+        "time": "2018-01-30T13:28:02+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "this7\\routes\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP framework router class.",
+        "homepage": "https://github.com/this7/routes",
+        "keywords": [
+            "php",
+            "php-router",
+            "router"
+        ]
+    },
+    {
+        "name": "this7/sql",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/sql.git",
+            "reference": "0c60b1bb9faa3d90a84b8582e4d03de32a503ba5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/sql/0c60b1bb9faa3d90a84b8582e4d03de32a503ba5.zip",
+            "reference": "0c60b1bb9faa3d90a84b8582e4d03de32a503ba5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "this7/config": "dev-master"
+        },
+        "time": "2018-01-29T08:31:39+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "this7\\sql\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP framework router class.",
+        "homepage": "https://github.com/this7/sql",
+        "keywords": [
+            "php",
+            "php-router",
+            "router"
+        ]
+    },
+    {
+        "name": "this7/tags",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/tags.git",
+            "reference": "6b669d2f165b2337cf061682392517ab8c36f840"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/tags/6b669d2f165b2337cf061682392517ab8c36f840.zip",
+            "reference": "6b669d2f165b2337cf061682392517ab8c36f840",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "this7/config": "dev-master"
+        },
+        "time": "2018-01-29T08:31:52+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "this7\\tags\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP framework tags class.",
+        "homepage": "https://github.com/this7/tags",
+        "keywords": [
+            "php",
+            "php-tags",
+            "tags"
+        ]
+    },
+    {
+        "name": "this7/tags-uikit",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/tags-uikit.git",
+            "reference": "05b8722af64a14cd8db2edd32143ffaa8077fcc5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/tags-uikit/05b8722af64a14cd8db2edd32143ffaa8077fcc5.zip",
+            "reference": "05b8722af64a14cd8db2edd32143ffaa8077fcc5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "this7/tags": "dev-master"
+        },
+        "time": "2018-01-29T11:20:20+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "this7\\tags_uikit\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP framework tags-uikit class.",
+        "homepage": "https://github.com/this7/tags-uikit",
+        "keywords": [
+            "php",
+            "php-tags-uikit",
+            "tags-uikit"
+        ]
+    },
+    {
+        "name": "this7/this7",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/this7.git",
+            "reference": "82b375305a325444e66aa6b7e939c4758ded1e59"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/this7/82b375305a325444e66aa6b7e939c4758ded1e59.zip",
+            "reference": "82b375305a325444e66aa6b7e939c4758ded1e59",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0",
+            "this7/cache": "dev-master",
+            "this7/config": "dev-master",
+            "this7/logger": "dev-master",
+            "this7/request": "dev-master",
+            "this7/routes": "dev-master",
+            "this7/sql": "dev-master",
+            "this7/util": "dev-master",
+            "this7/view": "dev-master"
+        },
+        "time": "2018-01-30T20:34:43+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "this7\\framework\\": "src",
+                "this7\\staticize\\": "lib"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP framework class.",
+        "homepage": "https://github.com/this7/framework",
+        "keywords": [
+            "php-frame",
+            "this7",
+            "this7 framework"
+        ]
+    },
+    {
+        "name": "this7/util",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/util.git",
+            "reference": "642735ab937ea67c0204f02ea040a5b36bc9eb4a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/util/642735ab937ea67c0204f02ea040a5b36bc9eb4a.zip",
+            "reference": "642735ab937ea67c0204f02ea040a5b36bc9eb4a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.6",
+            "this7/config": "dev-master",
+            "this7/logger": "dev-master"
+        },
+        "time": "2018-01-29T08:32:49+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "this7\\util\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP util class.",
+        "homepage": "https://github.com/this7/util",
+        "keywords": [
+            "php-util",
+            "this7"
+        ]
+    },
+    {
+        "name": "this7/view",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/this7/view.git",
+            "reference": "d52ecf2253a6c3745d738c02a996ea7328b8896f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/this7/view/d52ecf2253a6c3745d738c02a996ea7328b8896f.zip",
+            "reference": "d52ecf2253a6c3745d738c02a996ea7328b8896f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.6",
+            "this7/cache": "dev-master",
+            "this7/config": "dev-master",
+            "this7/tags-uikit": "dev-master"
+        },
+        "time": "2018-01-30T13:27:07+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "this7\\view\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yan Tianzeng",
+                "email": "qinuoyun@qq.com",
+                "homepage": "http://www.ub-u7.com/"
+            }
+        ],
+        "description": "this7 PHP view class.",
+        "homepage": "https://github.com/this7/view",
+        "keywords": [
+            "php-view",
+            "this7"
+        ]
+    }
+]

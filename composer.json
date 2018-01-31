@@ -1,0 +1,44 @@
+{
+    "name": "this7/app",
+    "description": "this7 PHP application class.",
+    "license": "MIT",
+    "homepage": "https://github.com/this7/app",
+    "keywords": [
+        "this7",
+        "php-frame"
+    ],
+    "authors": [
+    {
+        "name": "Yan Tianzeng",
+        "email": "qinuoyun@qq.com",
+        "homepage": "http://www.ub-u7.com/"
+    }],
+    "minimum-stability": "dev",
+    "require":
+    {
+        "php": ">=5.6.0",
+        "this7/this7": "dev-master",
+        "aliyuncs/oss-sdk-php":"V2.3.0"
+    },
+    "autoload":
+    {
+        "files": [
+            "server/extends/functions.php"
+        ],
+        "psr-4":
+        {
+            "server\\controllers\\": "server/controllers",
+            "server\\connector\\": "server/connector",
+            "server\\models\\": "server/models"
+        },
+        "classmap": [
+            "server/controllers",
+            "server/connector",
+            "server/models"
+        ]
+    },
+    "config":
+    {
+        "optimize-autoloader": true
+    }
+}

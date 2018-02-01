@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/this7/config.git",
-                "reference": "e19358ad2b3ad51048e17b93fc8e918098a25f65"
+                "reference": "8719b3389d2adf1484469f66599f4d7aa589df0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/this7/config/e19358ad2b3ad51048e17b93fc8e918098a25f65.zip",
-                "reference": "e19358ad2b3ad51048e17b93fc8e918098a25f65",
+                "url": "https://files.phpcomposer.com/files/this7/config/8719b3389d2adf1484469f66599f4d7aa589df0b.zip",
+                "reference": "8719b3389d2adf1484469f66599f4d7aa589df0b",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "this7",
                 "this7 config"
             ],
-            "time": "2018-01-30T13:27:24+00:00"
+            "time": "2018-01-31T06:32:47+00:00"
         },
         {
             "name": "this7/logger",
